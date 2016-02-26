@@ -1,12 +1,12 @@
 # Create simple browser device
-Framer.DeviceView.Devices["simple-browser-1024-600"] =
+Framer.DeviceView.Devices["simple-browser-1280-680"] =
 	"deviceType": "desktop"
-	"screenWidth": 1024
-	"screenHeight": 600
-	"deviceImage": "images/simple-browser-1024.png"
-	"deviceImageWidth": 1140
-	"deviceImageHeight": 760
-Framer.Device.deviceType = "simple-browser-1024-600" # Set custom device
+	"screenWidth": 1280
+	"screenHeight": 680
+	"deviceImage": "images/simple-browser-1280.png"
+	"deviceImageWidth": 2792/2
+	"deviceImageHeight": 1680/2
+Framer.Device.deviceType = "simple-browser-1280-680" # Set custom device
 document.body.style.cursor = "auto" # Normal desktop cursor
 
 bg = new BackgroundLayer backgroundColor: "#bbb"

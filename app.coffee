@@ -7,8 +7,8 @@ Framer.DeviceView.Devices["simple-browser-1024-600"] =
 	"deviceImageWidth": 1140
 	"deviceImageHeight": 760
 Framer.Device.deviceType = "simple-browser-1024-600" # Set custom device
-
 document.body.style.cursor = "auto" # Normal desktop cursor
+
 bg = new BackgroundLayer backgroundColor: "#bbb"
 
 # Create draggable box
